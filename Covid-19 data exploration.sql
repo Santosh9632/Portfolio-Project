@@ -1,11 +1,11 @@
---select *
---from ProjectPortfolio..covid_death_data$
---where continent is not null
---order by 3,4
+select *
+from ProjectPortfolio..covid_death_data$
+where continent is not null
+order by 3,4
 
---select *
---from ProjectPortfolio..covid_vaccination_data$
---order by 3,4
+select *
+from ProjectPortfolio..covid_vaccination_data$
+order by 3,4
 
 --Looking for Total Cases vs Total Deaths
 -- Likelyhood of dying if you contract covid-19
